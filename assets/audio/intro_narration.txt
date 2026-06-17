@@ -1,0 +1,35 @@
+1.1 Welcome & Course Overview. Title Animation & Avatar Entrance. Welcome to SAP Joule Studio & AI Agent Development
+
+1.1 Welcome & Course Overview. Course Overview Visual. First: AI & ML Fundamentals, Second: Building Agents, Third: Real-world Implementation
+
+1.1 Welcome & Course Overview. Course Structure Map. 52 hours total, 10 major modules, progressive complexity
+
+1.1 Welcome & Course Overview. Learning Outcomes Highlight. By end of course you will understand AI, build agents, deploy solutions
+
+1.1 Welcome & Course Overview. Success Factors. Engage actively, do hands-on labs, revisit concepts, leverage community
+
+1.1 Welcome & Course Overview. Resources Available. Downloadable resources, companion ebook, community forums, practice labs
+
+1.1 Welcome & Course Overview. Bridge to Next Section. Ready to dive deeper? Let's go to Section 1.2
+
+1.2 What is SAP Joule?. Section Title & Definition. SAP Joule is an enterprise-grade generative AI copilot for SAP ecosystem
+
+1.2 What is SAP Joule?. Unpack Enterprise-Grade. Built for reliability, security, performance, compliance, scale
+
+1.2 What is SAP Joule?. Generative AI Explained. Generates new content, analyzes patterns, not just retrieving
+
+1.2 What is SAP Joule?. Copilot Metaphor. Joule is your partner, handles routine work, escalates complex decisions
+
+1.2 What is SAP Joule?. SAP Integration Example. Understands customers, materials, invoices, employees, processes
+
+1.2 What is SAP Joule?. Capabilities Summary. Four key abilities enable Joule to serve as intelligent copilot
+
+1.2 What is SAP Joule?. Real Use Case Example 1. Finance controller asks about cash position, Joule analyzes risk
+
+1.2 What is SAP Joule?. Real Use Case Example 2. Procurement manager requests order optimization with constraints
+
+1.2 What is SAP Joule?. Real Use Case Example 3. Sales manager seeks opportunity identification and sizing
+
+1.2 What is SAP Joule?. Joule in Your Workflow. Joule sits alongside existing tools, enhances not replaces
+
+1.2 What is SAP Joule?. Key Differentiators. SAP Integration, Business Context, Governance, Process Optimization, Real-time, Continuous Improvement
