@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SAP Joule Studio & AI Agent Development | Video Course</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>SAP Joule Studio & AI Agent Development</h1>
+    <p>Professional video-course web page with MP4 player, audio narration, slide-based lesson viewer, trainer script assets, and a searchable scene-by-scene storyboard.</p>
+    <div class="badges">
+      <span class="badge">10 modules</span><span class="badge">333 storyboard scenes</span><span class="badge">Audio + MP4 sample</span><span class="badge">GitHub Pages ready</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid">
+      <div class="card">
+        <video controls poster="assets/slides/slide-1.png">
+          <source src="assets/video/sap_joule_sample_course_video.mp4" type="video/mp4">
+          Your browser does not support MP4 video playback.
+        </video>
+        <div class="card-inner">
+          <h2>Course Video Player</h2>
+          <p>This sample MP4 was generated from the PowerPoint slide images and narration text. Replace it later with final HeyGen, Synthesia, Canva, or PowerPoint-exported MP4 files.</p>
+          <div class="note"><b>Production note:</b> The included narration is an offline sample voice. For final professional delivery, record a human trainer voice or use a premium avatar/AI voice.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <h2>Audio Narration</h2>
+          <div class="audio-row">
+            <audio controls>
+              <source src="assets/audio/sap_joule_intro_narration.mp3" type="audio/mpeg">
+              Your browser does not support audio playback.
+            </audio>
+            <p class="small">Use this as a working narration sample. The slide viewer below also has browser text-to-speech for each scene.</p>
+          </div>
+          <h3>Course Downloads</h3>
+          <div class="downloads">
+            <div class="download"><b>PowerPoint Deck</b><a href="assets/downloads/SAP_Joule_Professional_Video_Course_Deck.pptx">Download PPTX</a></div>
+            <div class="download"><b>Trainer Script</b><a href="assets/downloads/SAP_Joule_Trainer_Script.docx">Download DOCX</a></div>
+            <div class="download"><b>MP4 Storyboard</b><a href="assets/downloads/SAP_Joule_MP4_Storyboard.docx">Download DOCX</a></div>
+            <div class="download"><b>Scene Plan CSV</b><a href="assets/downloads/SAP_Joule_MP4_Ready_Storyboard.csv">Download CSV</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:24px">
+      <div class="card-inner">
+        <h2>Module Navigation</h2>
+        <div id="moduleGrid" class="module-grid"></div>
+      </div>
+    </section>
+
+    <section class="grid" style="margin-top:24px">
+      <div class="card">
+        <div class="slide-stage"><img id="slideImage" src="assets/slides/slide-1.png" alt="Course slide"></div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <h2 id="sceneTitle">Scene title</h2>
+          <div class="scene-meta"><span class="pill" id="sceneCount"></span><span class="pill" id="sceneDuration"></span></div>
+          <p class="small" id="sceneModule"></p>
+          <p class="small" id="sceneSection"></p>
+          <div class="text-box"><b>Narration</b><p id="sceneNarration"></p></div>
+          <div class="text-box"><b>Visual Direction</b><p id="sceneVisual"></p></div>
+          <div class="text-box"><b>Avatar Direction</b><p id="sceneAvatar"></p></div>
+          <div class="text-box"><b>Production Notes</b><p id="sceneNotes"></p></div>
+          <div class="controls">
+            <button id="prevBtn" class="light">Previous</button>
+            <button id="nextBtn">Next</button>
+            <button id="speakBtn" class="secondary">Speak scene</button>
+            <button id="stopBtn" class="light">Stop voice</button>
+            <button id="autoBtn" class="secondary">Auto-play scenes</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:24px">
+      <div class="card-inner">
+        <h2>Searchable MP4-Ready Storyboard</h2>
+        <input id="searchBox" placeholder="Search by module, section, scene, narration, visual, avatar direction..." />
+        <p class="small" id="tableNote"></p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Seq</th><th>Module</th><th>Section</th><th>Scene</th><th>Duration</th><th>Narration</th></tr></thead>
+            <tbody id="storyBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Prepared as a self-contained static website. Upload the full folder to GitHub Pages, Netlify, or any standard web hosting.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
